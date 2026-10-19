@@ -1,0 +1,21 @@
+# Local site-generation artifacts; keep the tracked docs/ source site
+_site/
+.jekyll-cache/
+.sass-cache/
+.bundle/
+vendor/bundle/
+node_modules/
+dist/
+build/
+
+# Local credentials and temporary files
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
